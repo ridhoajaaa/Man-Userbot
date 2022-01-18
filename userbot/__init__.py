@@ -150,12 +150,12 @@ HEROKU_API_KEY = os.environ.get("HEROKU_API_KEY", None)
 WATCH_COUNTRY = os.environ.get("WATCH_COUNTRY", "ID")
 
 # Github Credentials for updater and Gitupload.
-GIT_REPO_NAME = os.environ.get("GIT_REPO_NAME", "dodo-Userbot")
+GIT_REPO_NAME = os.environ.get("GIT_REPO_NAME", "dodo-Userbott")
 GITHUB_ACCESS_TOKEN = os.environ.get("GITHUB_ACCESS_TOKEN", "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")
 
 # Custom (forked) repo URL for updater.
 UPSTREAM_REPO_URL = os.environ.get(
-    "UPSTREAM_REPO_URL", "https://github.com/ridhoajaaa/dodo-Userbot.git"
+    "UPSTREAM_REPO_URL", "https://github.com/ridhoajaaa/dodo-Userbott.git"
 )
 
 # SQL Database URI
