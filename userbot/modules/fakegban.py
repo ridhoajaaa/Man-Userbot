@@ -38,7 +38,7 @@ async def gbun(event):
             jnl = (
                 "**Warning!!**"
                 "[{}](tg://user?id={})"
-                f"** 𝙂𝘽𝘼𝙉𝙉𝙀𝘿 By** {owner}\n\n"
+                f"** yahaha kntl 𝙂𝘽𝘼𝙉𝙉𝙀𝘿 By** {owner}\n\n"
                 "**Name: ** __{}__\n"
                 "**ID : ** `{}`\n"
             ).format(firstname, idd, firstname, idd)
@@ -55,7 +55,7 @@ async def gbun(event):
                 jnl += no_reason
             await reply_message.reply(jnl)
     else:
-        mention = f"**Warning!! User 𝙂𝘽𝘼𝙉𝙉𝙀𝘿 By** {owner} \n**Reason:** `Jamet` "
+        mention = f"**Warning!! yahaha hayyuk brader, User 𝙂𝘽𝘼𝙉𝙉𝙀𝘿 By** {owner} \n**Reason:** `Jamet` "
         await event.reply(mention)
     await event.delete()
 
