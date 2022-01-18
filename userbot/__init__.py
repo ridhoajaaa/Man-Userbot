@@ -130,7 +130,7 @@ LOAD = os.environ.get("LOAD", "").split()
 NO_LOAD = os.environ.get("NO_LOAD", "").split()
 
 # Bleep Blop, this is a bot ;)
-PM_AUTO_BAN = sb(os.environ.get("PM_AUTO_BAN", "True"))
+PM_AUTO_BAN = sb(os.environ.get("PM_AUTO_BAN", "False"))
 PM_LIMIT = int(os.environ.get("PM_LIMIT", 6))
 
 # Custom Handler command
@@ -173,7 +173,7 @@ GOOGLE_CHROME_BIN = os.environ.get("GOOGLE_CHROME_BIN") or "/usr/bin/google-chro
 
 # OpenWeatherMap API Key
 OPEN_WEATHER_MAP_APPID = os.environ.get("OPEN_WEATHER_MAP_APPID", None)
-WEATHER_DEFCITY = os.environ.get("WEATHER_DEFCITY", "Jakarta")
+WEATHER_DEFCITY = os.environ.get("WEATHER_DEFCITY", "Makassar")
 
 # For MONGO based DataBase
 MONGO_URI = os.environ.get("MONGO_URI", None)
@@ -183,7 +183,7 @@ ANTI_SPAMBOT = sb(os.environ.get("ANTI_SPAMBOT", "False"))
 ANTI_SPAMBOT_SHOUT = sb(os.environ.get("ANTI_SPAMBOT_SHOUT", "False"))
 
 # untuk perintah teks costum .alive
-ALIVE_TEKS_CUSTOM = os.environ.get("ALIVE_TEKS_CUSTOM", "Hey, I am alive.")
+ALIVE_TEKS_CUSTOM = os.environ.get("ALIVE_TEKS_CUSTOM", "Alo. Saya hidup banh")
 
 # Default .alive name
 ALIVE_NAME = os.environ.get("ALIVE_NAME", "Dodo")
