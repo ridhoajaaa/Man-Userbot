@@ -49,7 +49,7 @@ async def impostor(event):
 
     await event.edit("**Mencuri identitas orang ini...**")
     await updateProfile(userObj)
-    await event.edit("**Aku adalah kamu dan kamu adalah aku. asekk 🥴**")
+    await event.edit("**aku adalah aku, kamu adalah ajg**")
 
 
 async def updateProfile(userObj, restore=False):
