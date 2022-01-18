@@ -69,7 +69,7 @@ async def _(ping):
         f"**PONG!!🏓**\n"
         f"✣ **Pinger** - `%sms`\n"
         f"✣ **Uptime -** `{uptime}` \n"
-        f"**✦҈͜͡Owner :** [{user.first_name}](tg://user?id={user.id})" % (duration)
+        f"**✦҈͜͡LORD BAPAMU :** [{user.first_name}](tg://user?id={user.id})" % (duration)
     )
 
 
@@ -156,7 +156,7 @@ async def _(pong):
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await kping.edit(
-        f"**NGENTOT!! 🐨**\n**KAMPANG** : %sms\n**Bot Uptime** : {uptime}🕛" % (duration)
+        f"**YESH BEBY AHK!! 🐨**\n**SUNDALA** : %sms\n**Bot Uptime** : {uptime}🕛" % (duration)
     )
 
 
