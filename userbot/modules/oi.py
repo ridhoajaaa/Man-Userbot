@@ -12,7 +12,7 @@ async def _(event):
     sleep(3)
     await event.edit("**Aku Sayang Kamu**")
     sleep(1)
-    await event.edit("**I LOVE YOU 💞**")
+    await event.edit("**KAMU KYK AJG TAPI, I LOVE YOU 💞**")
 
 
 # Create by myself @localheart
@@ -24,7 +24,7 @@ async def _(event):
     sleep(3)
     await event.edit("**Tetaplah Bernapas**")
     sleep(1)
-    await event.edit("**Dan Selalu Bersyukur**")
+    await event.edit("**Dan Menjadi Beban Keluarga**")
 
 
 # Create by myself @localheart
@@ -73,7 +73,7 @@ async def _(event):
 @bot.on(man_cmd(outgoing=True, pattern=r"dp(?: |$)(.*)"))
 async def _(event):
     await event.client.send_message(
-        event.chat_id, "**MUKA LU HINA, GAUSAH SOK KERAS YA ANJENGG!!**"
+        event.chat_id, "**MUKA LU HINA, GAUSAH SOK KERAS LO KONTOL!!**"
     )
     await event.delete()
 
@@ -81,7 +81,7 @@ async def _(event):
 @bot.on(man_cmd(outgoing=True, pattern=r"so(?: |$)(.*)"))
 async def _(event):
     await event.client.send_message(
-        event.chat_id, "**GAUSAH SOKAB SAMA GUA GOBLOK, LU BABU GA LEVEL!!**"
+        event.chat_id, "**GAUSAH SOKAB SAMA GUA GOBLOK, LU BABU GA LEVEL, IUH!!**"
     )
     await event.delete()
 
@@ -91,7 +91,7 @@ async def _(event):
     if event.chat_id in BLACKLIST_CHAT:
         return await event.edit("**Perintah ini Dilarang digunakan di Group ini**")
     await event.client.send_message(
-        event.chat_id, "**MAEN BOT MULU ALAY NGENTOTT, KESANNYA NORAK GOBLOK!!!**"
+        event.chat_id, "**MAEN BOT MULU ALAY NGENTOTT, NORAK KESANNYA KAMPUNGAN!!!**"
     )
     await event.delete()
 
@@ -107,7 +107,7 @@ async def _(event):
 async def _(event):
     await event.client.send_message(
         event.chat_id,
-        "**WAR WAR PALAK BAPAK KAU WAR, SOK KERAS BANGET GOBLOK, DI TONGKRONGAN JADI BABU, DI TELE SOK JAGOAN...**",
+        "**WAR WAR PALAK BAPAK KAU AJG WAR, SOK KERAS BANGET GOBLOK, DI TONGKRONGAN JADI BABU, DI TELE SOK JAGOAN...**",
     )
     await event.delete()
 
@@ -125,7 +125,7 @@ async def _(event):
 async def _(event):
     await event.client.send_message(
         event.chat_id,
-        "**CUIHHHH, MAKAN AJA MASIH NGEMIS LO GOBLOK, JANGAN SO NINGGI YA KONTOL GA KEREN LU KEK GITU GOBLOK!!**",
+        "**CUIHHHH, MAKAN AJA MASIH NGEMIS LO GOBLOK, MAAF SISI GELAP GW BANH!!**",
     )
     await event.delete()
 
@@ -133,7 +133,7 @@ async def _(event):
 @bot.on(man_cmd(outgoing=True, pattern=r"ded(?: |$)(.*)"))
 async def _(event):
     await event.client.send_message(
-        event.chat_id, "**MATI AJA LU GOBLOK, GAGUNA LU HIDUP DI BUMI**"
+        event.chat_id, "**MATI AJA LU GOBLOK, GAGUNA LU HIDUP DI BUMI, LU MATI AJA ORANG2 GADA YANG SEDIH**"
     )
     await event.delete()
 
@@ -179,7 +179,7 @@ async def _(event):
     if event.chat_id in BLACKLIST_CHAT:
         return await event.edit("**Perintah ini Dilarang digunakan di Group ini**")
     await event.client.send_message(
-        event.chat_id, "**GC SAMPAH KAYA GINI, BUBARIN AJA GOBLOK!!**"
+        event.chat_id, "**GC SAMPAH KAYA GINI, BUBARIN AJA GOBLOK. becanda banh!!**"
     )
     await event.delete()
 
@@ -198,7 +198,7 @@ async def _(event):
     sleep(1.5)
     await event.edit("**INI YANG VIRTUAL**")
     sleep(1.5)
-    await event.edit("**YANG KATANYA SAYANG BANGET**")
+    await event.edit("**YANG KATANYA SAYANG BANGET, UDAH NGOMONGIN MAU PUNYA ANAK BERAPA**")
     sleep(1.5)
     await event.edit("**TAPI TETEP AJA DI TINGGAL**")
     sleep(1.5)
@@ -206,9 +206,9 @@ async def _(event):
     sleep(1.5)
     await event.edit("**TANGANNYA AJA GA BISA DI PEGANG**")
     sleep(1.5)
-    await event.edit("**APALAGI OMONGANNYA**")
+    await event.edit("**APALAGI KONTOLNYA**")
     sleep(1.5)
-    await event.edit("**BHAHAHAHA**")
+    await event.edit("**aowkkakwk ngakak abiesz**")
     sleep(1.5)
     await event.edit("**KASIAN MANA MASIH MUDA**")
 
