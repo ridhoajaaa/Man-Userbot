@@ -59,7 +59,7 @@ async def deploy(xx, repo, ups_rem, ac_br, txt):
             await edit_or_reply(
                 xx,
                 f"{txt}\n"
-                "**Kredensial Heroku tidak valid untuk deploy Man-Userbot dyno.**",
+                "**Kredensial Heroku tidak valid untuk deploy ddodx-Userbot dyno.**",
             )
             return repo.__del__()
         try:
@@ -95,7 +95,7 @@ async def deploy(xx, repo, ups_rem, ac_br, txt):
                 xx, "**Build Gagal!** Dibatalkan karena ada beberapa error.`"
             )
         await edit_or_reply(
-            xx, "`Man-Userbot Berhasil Di Deploy! Userbot bisa di gunakan kembali.`"
+            xx, "`ddodx-Userbot Berhasil Di Deploy! Userbot bisa di gunakan kembali.`"
         )
 
     else:
@@ -110,7 +110,7 @@ async def update(xx, repo, ups_rem, ac_br):
     except GitCommandError:
         repo.git.reset("--hard", "FETCH_HEAD")
     await edit_or_reply(
-        xx, "`Man-Userbot Berhasil Diupdate! Userbot bisa di Gunakan Lagi.`"
+        xx, "`ddodx-Userbot Berhasil Diupdate! Userbot bisa di Gunakan Lagi.`"
     )
 
     try:
@@ -173,7 +173,7 @@ async def upstream(event):
         return
 
     if changelog == "" and not force_update:
-        await edit_delete(xx, "**✥ Man-Userbot Sudah Versi Terbaru**")
+        await edit_delete(xx, "**✥ ddodx-Userbot Sudah Versi Terbaru**")
         return repo.__del__()
 
     if conf == "" and not force_update:
