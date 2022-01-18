@@ -27,7 +27,7 @@ async def _(event):
         "`\n┻┳|￣  )`"
         "`\n┳ﾐ(￣ ／`"
         "`\n┻┳T￣|`"
-        "\n**Punten**"
+        "\n**Punten, ada yang mau ribut?**"
     )
 
 
@@ -41,7 +41,7 @@ async def _(event):
         "`\n┻┳|￣  )`"
         "`\n┳ﾐ(￣ ／`"
         "`\n┻┳T￣|`"
-        "\n**Masih Gua Pantau**"
+        "\n**Masih Gua Pantau, bentar lagi gw etot**"
     )
 
 
