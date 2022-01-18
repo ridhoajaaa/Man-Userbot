@@ -79,10 +79,10 @@ async def shutdown_bot(event):
 async def restart_bot(event):
     if event.sender_id in SUDO_USERS:
         return
-    await edit_or_reply(event, "**Man-Userbot Berhasil di Restart**")
+    await edit_or_reply(event, "**ddodx-Userbot Berhasil di Restart**")
     if BOTLOG_CHATID:
         await event.client.send_message(
-            BOTLOG_CHATID, "#RESTART \n" "**Man-Userbot Berhasil Di Restart**"
+            BOTLOG_CHATID, "#RESTART \n" "**ddodx-Userbot Berhasil Di Restart**"
         )
     args = [sys.executable, "-m", "userbot"]
     execle(sys.executable, *args, environ)
@@ -93,11 +93,11 @@ async def reedme(event):
     await edit_or_reply(
         event,
         "**Berikut sesuatu untuk kamu baca:**\n"
-        "\n✣ [Userbot Repo](https://github.com/mrismanaziz/Man-Userbot/blob/Man-Userbot/README.md)"
-        "\n✣ [Video Tutorial](https://youtu.be/tTDaPKsGC1I)"
+        "\n✣ [Userbot Repo](https://xnxx.com)"
+        "\n✣ [Video Tutorial](https://www.youtube.com/c/AttaHalilintar)"
         "\n✣ [List Variabel Heroku untuk Man-Userbot](https://telegra.ph/List-Variabel-Heroku-untuk-Man-Userbot-09-22)"
-        "\n✣ [Setup Guide - Basic](https://mrismanaziz.medium.com/cara-memasang-userbot-telegram-repo-man-userbot-deploy-di-heroku-c56d1f8b5537)"
         "\n✣ [Setup Guide - LastFM Module](https://telegra.ph/How-to-set-up-LastFM-module-for-Paperplane-userbot-11-02)",
+        "\n✣ [Lord BAPAMU⚡](https://ddodxy)",
     )
 
 
@@ -119,13 +119,13 @@ async def repeat(event):
 async def repo_is_here(event):
     xx = await edit_or_reply(event, "`Processing...`")
     await xx.edit(
-        f"**Hey**, __I am using__ 🔥 **Man-Userbot** 🔥\n\n"
+        f"**Hey**, __gwej menggunakan bot__ 🔥 **ddodx-Userbot** 🔥\n\n"
         f"      __Thanks For Using me__\n\n"
         f"✣ **Userbot Version :** `{BOT_VER}@{branch}`\n"
-        f"✣ **Group Support :** [Sharing Userbot](t.me/sharinguserbot)\n"
-        f"✣ **Channel Man :** [Lunatic0de](t.me/Lunatic0de)\n"
-        f"✣ **Owner Repo :** [Risman](t.me/mrismanaziz)\n"
-        f"✣ **Repo :** [Man-Userbot](https://github.com/mrismanaziz/Man-Userbot)\n"
+        f"✣ **Group Support :** [Demons](t.me/demonszxx)\n"
+        f"✣ **Channel Man :** [Ena2](t.me/nigabutajasii)\n"
+        f"✣ **Owner Repo :** [dodo gtg beut ygy](t.me/ddodxy)\n"
+        f"✣ **Repo :** [ddodx-Userbot](https://xnxx.com)\n"
     )
 
 
