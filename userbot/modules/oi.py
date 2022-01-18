@@ -68,6 +68,15 @@ async def _(event):
         "**PASANG PP DULU GOBLOK,BIAR ORANG-ORANG PADA TAU BETAPA HINA NYA MUKA LU 😆**",
     )
     await event.delete()
+    
+    
+@bot.on(man_cmd(outgoing=True, pattern=r"gikes(?: |$)(.*)"))
+async def _(event):
+    await event.client.send_message(
+        event.chat_id,
+        "**GCAST MULU, ALAY NGENTOT KESANNYA NORAK MATI AJA SANA CUIH JIJI....**",
+    )
+    await event.delete()
 
 
 @bot.on(man_cmd(outgoing=True, pattern=r"dp(?: |$)(.*)"))
